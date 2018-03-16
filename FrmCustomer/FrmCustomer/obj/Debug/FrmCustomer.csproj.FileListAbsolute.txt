@@ -1,0 +1,14 @@
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe.config
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csprojResolveAssemblyReference.cache
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Form1.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Properties.Resources.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.GenerateResource.Cache
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.pdb
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.exe
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.pdb
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormAdd.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.dll
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.pdb
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormEdit.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormShowAll.resources
