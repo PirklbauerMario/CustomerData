@@ -1,0 +1,6 @@
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\bin\Debug\ClassLibraryCustomerData.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\bin\Debug\ClassLibraryCustomerData.pdb
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\obj\Debug\ClassLibraryCustomerData.csprojResolveAssemblyReference.cache
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\obj\Debug\ClassLibraryCustomerData.csproj.CoreCompileInputs.cache
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\obj\Debug\ClassLibraryCustomerData.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\ClassLibraryCustomerData\ClassLibraryCustomerData\obj\Debug\ClassLibraryCustomerData.pdb
