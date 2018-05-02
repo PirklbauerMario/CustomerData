@@ -26,6 +26,7 @@ namespace FrmCustomer
         public FormEdit()
         {
             InitializeComponent();
+            SetLanguage();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,7 +41,8 @@ namespace FrmCustomer
             }
             catch (Exception er)
             {
-                errorProvider1.SetError(button1, er.Message);
+                //errorProvider1.SetError(button1, er.Message);
+                errorProvider1.SetError(button1, Localization.getString(er.Message));
             }
         }
 
@@ -50,7 +52,8 @@ namespace FrmCustomer
             if (!int.TryParse(textBox1.Text ,out cNumber))
             {
                 e.Cancel = true;
-                errorProvider1.SetError(textBox1, "Type in a number!");
+                //errorProvider1.SetError(textBox1, "Type in a number!");
+                errorProvider1.SetError(textBox1, Localization.getString("FrmEditNumberReq"));
                 button1.Enabled = false;
             }
             else
@@ -67,6 +70,13 @@ namespace FrmCustomer
         private void textBox3_Validated(object sender, EventArgs e)
         {
             button1.Enabled = true;
+        }
+        private void SetLanguage()
+        {
+            this.Text = LangResources.FrmEditText;
+            groupBox1.Text = LangResources.FrmEditLabelGroupBox1;
+            groupBox2.Text = LangResources.FrmEditLabelGroupBox2;
+            groupBox3.Text = LangResources.FrmEditLabelGroupBox3;
         }
     }
 }

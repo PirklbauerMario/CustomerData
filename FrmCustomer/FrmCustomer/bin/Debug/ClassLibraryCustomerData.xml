@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryCustomerData</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryCustomerData.Customer">
+            <summary>
+            
+            
+            
+            
+            </summary>
+        </member>
+        <member name="M:ClassLibraryCustomerData.Customer.ChangeLastName(System.String)">
+            <summary>
+            This method changes the LastName of a customer. Keep in mind that the given name is checked and otherwise an exception is thrown.
+            </summary>
+            <param name="newName">New LastName of the customer</param>
+        </member>
+        <member name="M:ClassLibraryCustomerData.Customer.ChangeMail(System.String)">
+            <summary>
+            Methods changes the old Mail to the given new one if the one if it is correct. Otherwise an exception is thrown.
+            </summary>
+            <param name="newMail"></param>
+        </member>
+        <member name="M:ClassLibraryCustomerData.Customer.ChangeBankBalance(System.Double)">
+            <summary>
+            Methods changes the old bank balance to the given new one.
+            </summary>
+            <param name="newBankBalance"></param>
+        </member>
+        <member name="M:ClassLibraryCustomerData.Customer.CheckMail(System.String)">
+            <summary>
+            Checks a mail adress considering different restrictions
+            </summary>
+            <param name="mail">Mail to check</param>
+            <returns>Returns the given string if it is correct.</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.Customer.CheckName(System.String,ClassLibraryCustomerData.Customer.CallingClass)">
+            <summary>
+            This methods tests a given String if it ensures the guidelines of a name. The method is able to distinguish between different calling classes.
+            Otherwise an exception is thrown.
+            </summary>
+            <param name="name">Name to check</param>
+            <param name="callingClass">Class which calls this method</param>
+            <returns>Returns the checked string if correct</returns>
+        </member>
+        <member name="P:ClassLibraryCustomerData.CustomerDatabase.Count">
+            <summary>
+            Gives the amount of customers inside the Database.
+            </summary>
+        </member>
+        <member name="P:ClassLibraryCustomerData.CustomerDatabase.Customers">
+            <summary>
+            Gives a list of all customers inside the Database.
+            </summary>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.AddCustomer(System.String,System.String,System.String,System.Double)">
+            <summary>
+            Method is used to add a customer to the database. Alle parameters are required.
+            If name of email is incorrect an exception is raised.
+            Returns true if successfull.
+            An exception is raised if email still exists.
+            </summary>
+            <param name="firstName">First name of the new customer</param>
+            <param name="lastName">Last name of the new customer</param>
+            <param name="mail">Mail of the new customer</param>
+            <param name="bankBalance">Bank balance of the new customer</param>
+            <returns>Returns true if customer was added successfully</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.ChangeBankBalance(System.Int32,System.Double)">
+            <summary>
+            This method can be used to change the BankBalance of a given Customer.
+            If the customer doesn't exist an exception is raised.
+            </summary>
+            <param name="customerNumber">Customer number of the wanted customer</param>
+            <param name="newBankBalance">The new bank balance for this customer</param>
+            <returns>True if Changing was successful</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.ChangeLastName(System.Int32,System.String)">
+            <summary>
+            This method can be used to change the last name of a given Customer. If user does not exist, an exception is thrown.
+            </summary>
+            <param name="customerNumber">Customer number of the wanted customer</param>
+            <param name="newLastName">The new last name for this customer</param>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.ChangeMail(System.Int32,System.String)">
+            <summary>
+            This method can be used to change the mail of a given Customer.
+            </summary>
+            <param name="customerNumber">Customer number of the wanted customer</param>
+            <param name="newMail">The new mail for this customer</param>
+            <returns>0 if ok / -1 if user was not found / exception if mail was incorrect</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.GetSortedCustomers(System.Int32)">
+            <summary>
+            This method sorts the customer database regarding the given sortValue.
+            </summary>
+            <param name="sortValue">0->customernumber / 1->firstName / 2->lastname / 3->mail / 4->lastChange / 5->bankBalance </param>
+            <returns>A list with sorted customers</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.SaveDatabaseToCSVEncrypted(System.String,System.String)">
+            <summary>
+            This method is used to store a Customer Database in a CSV-File.
+            The file is stored in the your projects bin/debug directory.
+            You don't have to give an ending for your filename (e.g. .csv) because this is added by this method.
+            For the reason that the file should not be human-readable an encryption takes place depending on the given key.
+            The key should have at least 1 and max. 16 charaters. Otherwise an exception is raised.
+            </summary>
+            <param name="filename">Filename </param>
+            <param name="password"></param>
+            <returns>Returns true if saving was successul</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.LoadDatabaseFromCsvDecrypted(System.String,System.String)">
+            <summary>
+            This method is used to load a Customer Database from a CSV-File.
+            The file should be stored in the your projects bin/debug directory.
+            You don't have to give an ending for your filename (e.g. .csv) because this is added by this method.
+            The file has to be descrypted with the given key.
+            An exception is raised if the file doesn't exist.
+            The key should have at least 1 and max. 16 charaters. Otherwise an exception is raised.
+            ATTENTION: Your database should be empty when loading from a file. Otherwise an exception is raised. 
+            </summary>
+            <param name="filename"></param>
+            <param name="password"></param>
+            <returns>True if loading was successful</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.SaveDatabaseToBinaryFile(System.String)">
+            <summary>
+            This method can be used to export the whole database to a Binaryfile. 
+            The file is stored in the your projects bin/debug directory.
+            You don't have to give an ending for your filename (e.g. .dat) because this is added by this method.
+            </summary>
+            <param name="filename"></param>
+            <returns>True if saveing was successful</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.LoadDatabaseFromBinaryFile(System.String)">
+            <summary>
+            This method can be used to load customers from a presafed file.
+            You don't have to give an ending for your filename (e.g. .dat) because this is added by this method.
+            An exception is raised if the file doesn't exist.
+            ATTENTION: Your database should be empty when loading from a file. Otherwise an exception is raised. 
+            </summary>
+            <param name="filename"></param>
+            <returns>True if loading was successful</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.CalcKeyFromPassword(System.String)">
+            <summary>
+            This method can be used to calculate a Key for Encrypting/Decrypting from a given Password. The ASCII-values from each symbol of the string is summed up and finally the reminder of mod 56 is used as key.
+            </summary>
+            <param name="password">Given password</param>
+            <returns>Key for encryption/decryption</returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.Encode(System.String,System.Int32)">
+            <summary>
+            This method is used to encrypt a string with Cäsar-Encrypting depending on the given key.
+            </summary>
+            <param name="plaintext">String which should be encrypted</param>
+            <param name="key">Key used to encrypt</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.Decode(System.String,System.Int32)">
+            <summary>
+            This method is used to decrypt a string with Cäsar-Decrypting depending on the given key.
+            </summary>
+            <param name="ciphertext">String which should be decrypted</param>
+            <param name="key">Key used to decrypt</param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryCustomerData.CustomerDatabase.QuickSort``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            This method uses QuickSort to sort a given Array.
+            Because of the fact that the array is ref, the elements array is sorted afterwards.
+            </summary>
+            <typeparam name="T">The datatype of the array</typeparam>
+            <param name="elements">The given array to sort</param>
+            <param name="left">First element in Array</param>
+            <param name="right">Last element in Array</param>
+        </member>
+    </members>
+</doc>

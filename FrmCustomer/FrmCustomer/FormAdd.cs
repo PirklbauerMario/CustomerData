@@ -27,6 +27,7 @@ namespace FrmCustomer
         public FormAdd()
         {
             InitializeComponent();
+            SetLanguage();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -40,7 +41,10 @@ namespace FrmCustomer
             }
             catch(Exception er)
             {
-                errorProvider1.SetError(button1, er.Message);
+                //errorProvider1.SetError(button1, er.Message);
+                errorProvider1.SetError(button1, Localization.getString(er.Message));
+
+                
             }
 
         }
@@ -67,6 +71,13 @@ namespace FrmCustomer
             {
                 button1.Enabled = true;
             }
+        }
+        private void SetLanguage()
+        {
+            this.Text = LangResources.FrmAddText;
+            groupBox1.Text = LangResources.FrmAddLabelGroupBox1;
+            groupBox2.Text = LangResources.FrmAddLabelGroupBox2;
+
         }
     }
 }
