@@ -11,4 +11,73 @@ X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCusto
 X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.dll
 X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.pdb
 X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormEdit.resources
-X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormShowAll.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.xml
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.CoreCompileInputs.cache
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.CopyComplete
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormPay.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormWelcome.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.resx
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.cs
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.Designer.cs
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe.config
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.pdb
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.pdb
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.xml
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Form1.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormAdd.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormEdit.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormPay.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormWelcome.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Properties.Resources.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.GenerateResource.Cache
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.CoreCompileInputs.cache
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.exe
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.pdb
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.de-DE.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.en-US.resources
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\de-DE\FrmCustomer.resources.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\en-US\FrmCustomer.resources.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\de-DE\FrmCustomer.resources.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\en-US\FrmCustomer.resources.dll
+\\Mac\Dropbox\FH Wels [Dropbox]\SWE\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csprojResolveAssemblyReference.cache
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.resx
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.cs
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.Designer.cs
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe.config
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.exe
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\FrmCustomer.pdb
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\de-DE\FrmCustomer.resources.dll
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\en-US\FrmCustomer.resources.dll
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.dll
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.pdb
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\ClassLibraryCustomerData.xml
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csprojResolveAssemblyReference.cache
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Form1.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormAdd.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormEdit.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormPay.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.FormWelcome.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.Properties.Resources.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.de-DE.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.en-US.resources
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.GenerateResource.cache
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.CoreCompileInputs.cache
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\de-DE\FrmCustomer.resources.dll
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\en-US\FrmCustomer.resources.dll
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.csproj.CopyComplete
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.exe
+\\Mac\Dropbox\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.pdb
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.resx
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.cs
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\Form1.Designer.cs
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\de-DE\FrmCustomer.resources.dll
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\bin\Debug\en-US\FrmCustomer.resources.dll
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.de-DE.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\FrmCustomer.LangResources.en-US.resources
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\de-DE\FrmCustomer.resources.dll
+X:\Projekt Customer Data\VisualStudio\FrmCustomer\FrmCustomer\obj\Debug\en-US\FrmCustomer.resources.dll

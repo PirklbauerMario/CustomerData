@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExceptionBankBalForb" xml:space="preserve">
+    <value>Ungültiger Kontostand!</value>
+  </data>
+  <data name="ExceptionCustNumForb" xml:space="preserve">
+    <value>Kundennummer ungültig!</value>
+  </data>
+  <data name="ExceptionDayForb" xml:space="preserve">
+    <value>Ungültiger Tag in LetzteÄnderung!</value>
+  </data>
+  <data name="ExceptionDBNotEmpty" xml:space="preserve">
+    <value>Verwenden Sie eine leere Datenbank bevor Kunden importiert werden können!</value>
+  </data>
+  <data name="ExceptionFirstNameCapitalLetter" xml:space="preserve">
+    <value>Der erste Buchstabe des Vornamens sollte ein Großbuchstabe sein!</value>
+  </data>
+  <data name="ExceptionFirstNameEmpty" xml:space="preserve">
+    <value>Ihr Vorname sollte zumindest einen Buchstaben beinhalten!</value>
+  </data>
+  <data name="ExceptionFirstNameLetters" xml:space="preserve">
+    <value>Ihr Vorname sollte nur Buchstaben beinhalten!</value>
+  </data>
+  <data name="ExceptionHourForb" xml:space="preserve">
+    <value>Ungültige Stunde in LetzteÄnderung!</value>
+  </data>
+  <data name="ExceptionInvalPassw" xml:space="preserve">
+    <value>Datei konnte aufgrund eines falschen Passworts nicht gelesen werden!</value>
+  </data>
+  <data name="ExceptionLastNameCapitalLetter" xml:space="preserve">
+    <value>Der erste Buchstabe des Nachnamens sollte ein Großbuchstabe sein!</value>
+  </data>
+  <data name="ExceptionLastNameEmpty" xml:space="preserve">
+    <value>Ihr Nachname sollte zumindest einen Buchstaben beinhalten!</value>
+  </data>
+  <data name="ExceptionLastNameLetters" xml:space="preserve">
+    <value>Ihr Nachname sollte nur Buchstaben beinhalten!</value>
+  </data>
+  <data name="ExceptionMailDomain" xml:space="preserve">
+    <value>Als Domäne dürfen nur Buchstaben verwendet werden!</value>
+  </data>
+  <data name="ExceptionMailExists" xml:space="preserve">
+    <value>Diese Email existiert bereits!</value>
+  </data>
+  <data name="ExceptionMailFewSymbBeforeAt" xml:space="preserve">
+    <value>Zu wenige Symbole vor dem @-Symbol. Min. 1 Symbol!</value>
+  </data>
+  <data name="ExceptionMailForbSymb" xml:space="preserve">
+    <value>Email enthält verbotene Symbole!</value>
+  </data>
+  <data name="ExceptionMailMuchSymbAfterAt" xml:space="preserve">
+    <value>Zu wenige Symbole nach dem @-Symbol!</value>
+  </data>
+  <data name="ExceptionMailTooManyAt" xml:space="preserve">
+    <value>Email enthält zu viele @-Symbole!</value>
+  </data>
+  <data name="ExceptionMailToShort" xml:space="preserve">
+    <value>Email ist zu kurz oder enthält kein @-Symbol!</value>
+  </data>
+  <data name="ExceptionMinuteForb" xml:space="preserve">
+    <value>Ungültige Minute in LetzteÄnderung!</value>
+  </data>
+  <data name="ExceptionMonthForb" xml:space="preserve">
+    <value>Ungültiges Monat in LetzteÄnderung!</value>
+  </data>
+  <data name="ExceptionQuickSortForb" xml:space="preserve">
+    <value>Dieser Sortierparameter existiert nicht!</value>
+  </data>
+  <data name="ExceptionSecondForb" xml:space="preserve">
+    <value>Ungültige Sekunde in LetzteÄnderung!</value>
+  </data>
+  <data name="ExceptionToLessPointsAfterAt" xml:space="preserve">
+    <value>Email enthält zu wenige . nach dem @-Symbol!</value>
+  </data>
+  <data name="ExceptionUserNotFound" xml:space="preserve">
+    <value>Kunde wurde nicht gefunden!</value>
+  </data>
+  <data name="ExceptionWrongPassw" xml:space="preserve">
+    <value>Das Passwort sollte aus mind. 1 und max. 16 Zeichen bestehen.</value>
+  </data>
+  <data name="ExceptionYearForb" xml:space="preserve">
+    <value>Ungültiges Jahr in LetzteÄnderung!</value>
+  </data>
+  <data name="ExpcetionMailFrobPoints" xml:space="preserve">
+    <value>Email enthält . an verbotenen Positionen. Diese sind nicht am Beginn/Ende bzw. vor/nach dem @-Symbol erlaubt!</value>
+  </data>
+  <data name="ExpcetionMailNumSymb" xml:space="preserve">
+    <value>Zu viele/wenige Symbole im Endteil der Email. Mind. 2 und max. 4 Symbole sind erlaubt!</value>
+  </data>
+  <data name="ExpcetionMailToMuchPointsAfterAt" xml:space="preserve">
+    <value>Email enthält zu viele . nach dem @-Symbol!</value>
+  </data>
+  <data name="FrmEditNumberReq" xml:space="preserve">
+    <value>Geben Sie eine Nummer ein!</value>
+  </data>
+  <data name="FrmWelcomeLabelGroupbox" xml:space="preserve">
+    <value>Wähle Datenbank</value>
+  </data>
+  <data name="Frm1LableBtnAdd" xml:space="preserve">
+    <value>Kunde hinzufügen</value>
+  </data>
+  <data name="FrmWelcomeLabelRdbLoad" xml:space="preserve">
+    <value>Lade Datenbank</value>
+  </data>
+  <data name="FrmWelcomeLabelRdbNew" xml:space="preserve">
+    <value>Neue Datenbank</value>
+  </data>
+  <data name="Frm1DgvLabelHeader1" xml:space="preserve">
+    <value>Nachname   </value>
+  </data>
+  <data name="Frm1DgvLabelHeader2" xml:space="preserve">
+    <value>Vorname   </value>
+  </data>
+  <data name="Frm1DgvLabelHeader4" xml:space="preserve">
+    <value>Letzte Änderung</value>
+  </data>
+  <data name="Frm1DgvLabelHeader5" xml:space="preserve">
+    <value>Kontostand</value>
+  </data>
+  <data name="Frm1Label1u4" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Frm1Label2u3" xml:space="preserve">
+    <value>File-Name</value>
+  </data>
+  <data name="Frm1LabelBtnEdit" xml:space="preserve">
+    <value>Kunde bearbeiten</value>
+  </data>
+  <data name="Frm1LabelBtnLoad" xml:space="preserve">
+    <value>Laden</value>
+  </data>
+  <data name="Frm1LabelBtnPay" xml:space="preserve">
+    <value>Zahlung durchführen</value>
+  </data>
+  <data name="Frm1LabelBtnSave" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Frm1LabelBtnSearch" xml:space="preserve">
+    <value>Suchen</value>
+  </data>
+  <data name="Frm1LabelGroupBox2" xml:space="preserve">
+    <value>Datenbank speichern</value>
+  </data>
+  <data name="Frm1LabelGroupBox3" xml:space="preserve">
+    <value>Suche nach:</value>
+  </data>
+  <data name="Frm1LabelGroupBox5" xml:space="preserve">
+    <value>Datenbank laden</value>
+  </data>
+  <data name="Frm1Text" xml:space="preserve">
+    <value>Kundendaten</value>
+  </data>
+  <data name="FrmAddLabelGroupBox1" xml:space="preserve">
+    <value>Vorname</value>
+  </data>
+  <data name="FrmAddLabelGroupBox2" xml:space="preserve">
+    <value>Nachname</value>
+  </data>
+  <data name="FrmAddText" xml:space="preserve">
+    <value>Kunde hinzufügen</value>
+  </data>
+  <data name="FrmEditLabelGroupBox1" xml:space="preserve">
+    <value>Kundennummer</value>
+  </data>
+  <data name="FrmEditLabelGroupBox2" xml:space="preserve">
+    <value>Neuer Nachname</value>
+  </data>
+  <data name="FrmEditLabelGroupBox3" xml:space="preserve">
+    <value>Neue E-Mail</value>
+  </data>
+  <data name="FrmEditText" xml:space="preserve">
+    <value>Kunde bearbeiten</value>
+  </data>
+  <data name="FrmPayLabelGroupBox1" xml:space="preserve">
+    <value>Kundennummer</value>
+  </data>
+  <data name="FrmPayLabelGroupBox2" xml:space="preserve">
+    <value>Art der Zahlung</value>
+  </data>
+  <data name="FrmPayLabelRdb1" xml:space="preserve">
+    <value>Einzahlung</value>
+  </data>
+  <data name="FrmPayLabelRdb2" xml:space="preserve">
+    <value>Auszahlung</value>
+  </data>
+  <data name="FrmPayNoCustomer" xml:space="preserve">
+    <value>Kundennummer nicht vorhanden!</value>
+  </data>
+  <data name="FrmPayText" xml:space="preserve">
+    <value>Zahlung durchführen</value>
+  </data>
+  <data name="FrmWelcomeLabel RdbEnglish" xml:space="preserve">
+    <value>Englisch</value>
+  </data>
+  <data name="FrmWelcomeLabel RdbGerman" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="FrmWelcomeLabel1" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="FrmWelcomeLabel2" xml:space="preserve">
+    <value>File-Name</value>
+  </data>
+  <data name="FrmWelcomeLabelGroupbox3" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="FrmWelcomeText" xml:space="preserve">
+    <value>Willkommen</value>
+  </data>
+  <data name="MassageBoxSave" xml:space="preserve">
+    <value>Erfolgreich gespeichert!</value>
+  </data>
+  <data name="MassageBoxSearch" xml:space="preserve">
+    <value>Leider nicht gefunden!</value>
+  </data>
+  <data name="TootipTextSearch" xml:space="preserve">
+    <value>Sie können nach Vornamen, Nachnamen und Kundennummern suchen!</value>
+  </data>
+  <data name="ExceptionInvalFileName" xml:space="preserve">
+    <value>Der gewählte Dateiname ist ungültig. Bitte überprüfen Sie diesen!</value>
+  </data>
+  <data name="MassegeBoxLoad" xml:space="preserve">
+    <value>Datenbank wurde erfolgreich geladen!</value>
+  </data>
+</root>

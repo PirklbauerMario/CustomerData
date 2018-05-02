@@ -49,7 +49,7 @@
             this.groupBox3.Location = new System.Drawing.Point(12, 109);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(308, 44);
-            this.groupBox3.TabIndex = 10;
+            this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "New-E-Mail";
             // 
@@ -67,7 +67,7 @@
             this.groupBox2.Location = new System.Drawing.Point(12, 58);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(308, 44);
-            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "New-Surname";
             // 
@@ -85,8 +85,7 @@
             this.button1.Location = new System.Drawing.Point(111, 162);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 25);
-            this.button1.TabIndex = 8;
-            this.button1.TabStop = false;
+            this.button1.TabIndex = 3;
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
